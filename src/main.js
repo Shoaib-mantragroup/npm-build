@@ -5,6 +5,7 @@ import BootstrapVue from "bootstrap-vue";
 import "bootstrap-vue/dist/bootstrap-vue.css";
 Vue.config.productionTip = false;
 Vue.use(BootstrapVue);
+
 new Vue({
   router,
   render: (h) => h(App),
